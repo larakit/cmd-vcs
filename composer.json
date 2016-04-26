@@ -1,0 +1,30 @@
+{
+    "name": "larakit/cmd-vcs",
+    "description": "[Larakit] Библиотека для Laravel для мониторинга измененных файлов в vendor-пакетах",
+    "keywords": [
+        "laravel",
+        "laravel 5",
+        "git",
+        "svn",
+        "larakit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Koksharov",
+            "email": "info@sharoff.org"
+        }
+    ],
+    "require": {
+        "larakit/lk-spa": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larakit\\Cmdvcs\\": "src/Cmdvcs"
+        },
+        "files": [
+            "src/init.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
