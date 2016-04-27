@@ -1,6 +1,7 @@
 {
     "name": "larakit/cmd-vcs",
     "description": "[Larakit] Библиотека для Laravel для мониторинга измененных файлов в vendor-пакетах",
+    "version": "1.0.0",
     "keywords": [
         "laravel",
         "laravel 5",
