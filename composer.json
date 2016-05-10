@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "larakit/lk-spa": "*"
+        "larakit/lk-boot": "*"
     },
     "autoload": {
         "psr-4": {
