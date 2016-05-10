@@ -1,3 +1,3 @@
 <?php
 //регистрируем провайдеры
-Larakit\SPA::register_provider(\Larakit\Cmdvcs\LarakitServiceProvider::class);
+Larakit\Boot::register_provider(\Larakit\Cmdvcs\LarakitServiceProvider::class);
