@@ -52,7 +52,7 @@ class CommandVcs extends Command {
      * @return mixed
      */
     public function handle() {
-        $path         = base_path('vendor/');
+        $path         = base_path('vendor');
         $vendor_paths = \File::directories($path);
         $path         = rtrim(rtrim($path, '\\'), '/');
 
